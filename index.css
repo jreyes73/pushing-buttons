@@ -1,0 +1,73 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+
+h1 {
+    color: #22A699;
+}
+
+hr {
+    margin-left: 0%;
+}
+
+h2 {
+    margin-top: 75px;
+}
+
+#default button {
+    margin-left: 55px;
+}
+
+section button {
+    margin-left: 45px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-left: 0px;
+}
+
+#active button {
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#active button:hover {
+    background-color: gray;
+    color: white;
+}
+
+#skeuomorphic button {
+    box-shadow: 0px 4px;
+    background-color: #F2BE22;
+}
+
+#skeuomorphic button:hover {
+    cursor: pointer;
+    background-color: #916e04;
+}
+
+#skeuomorphic button:active {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px;
+}
+
+#flat button {
+    background-color: #f16a5e;
+    border: 2px solid #f16a5e;
+}
+
+#flat button:hover {
+    cursor: pointer;
+    background-color: #d83f31;
+    border: 2px solid #790d03;
+    font-size: 18px;
+}
+
+#flat button:active {
+    border-color: #fff;
+}
